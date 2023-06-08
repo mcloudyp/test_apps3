@@ -1,9 +1,5 @@
 import gradio as gr
 
-from test_apps2_submodule.config import Config
-
-print(Config.TEST_CONFIG)
-
 def greet(name):
     return "Hello" + name + "!!"
     

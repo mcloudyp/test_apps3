@@ -16,7 +16,7 @@ with gr.Blocks() as demo:
         slider2 = gr.Textbox(label="s2")
         drop3 = gr.Dropdown(["a", "b", "c"], label="d3")
     with gr.Row():
-        with gr.Column(scale=1, min_width=600):
+        with gr.Column(scale=1, min_width=1600):
             text1 = gr.Textbox(label="prompt 1")
             text2 = gr.Textbox(label="prompt 2")
             inbtw = gr.Button("Between")

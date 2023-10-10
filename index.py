@@ -1,5 +1,6 @@
 '''
 import gradio as gr
+import time
 
 def greet(name):
     return "Hello " + name + "!!"

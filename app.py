@@ -9,6 +9,8 @@ iface.launch()
 '''
 
 import gradio as gr
+from exceptiongropu import ValueError
+raise ValueError
 
 with gr.Blocks() as demo:
     with gr.Row():

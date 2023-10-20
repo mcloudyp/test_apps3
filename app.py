@@ -9,7 +9,7 @@ iface.launch()
 '''
 
 import gradio as gr
-from exceptiongroup import ValueError
+
 raise ValueError
 
 with gr.Blocks() as demo:

@@ -7,7 +7,6 @@ def greet(name):
 iface = gr.Interface(fn=greet, inputs="text", outputs="text")
 iface.launch()
 '''
-"""
 import gradio as gr
 
 with gr.Blocks() as demo:
@@ -24,10 +23,4 @@ with gr.Blocks() as demo:
             text5 = gr.Textbox(label="prompt 2")
 
 demo.launch()
-"""
-import os
-os.chdir(f"/home/xlab-app-center")
-os.system(f"git clone https://github.com/mcloudyp/test_apps3 /home/xlab-app-center/test_apps3")
-os.chdir(f"/home/xlab-app-center/test_apps3")
-os.system(f"python index.py")
 

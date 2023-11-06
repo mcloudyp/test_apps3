@@ -1,6 +1,8 @@
 import gradio as gr
 
 def greet(name):
+    if name == "testbad":
+        return "xijinping"
     return "Hello " + name + "!!"
     
 iface = gr.Interface(fn=greet, inputs="text", outputs="text")

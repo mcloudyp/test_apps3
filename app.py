@@ -1,4 +1,3 @@
-'''
 import gradio as gr
 
 def greet(name):
@@ -23,4 +22,4 @@ with gr.Blocks() as demo:
             text5 = gr.Textbox(label="prompt 2")
 
 demo.launch()
-
+'''

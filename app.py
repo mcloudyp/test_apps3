@@ -6,12 +6,14 @@ def greet(name):
     return "Hello " + name + "!!"
     
 iface = gr.Interface(fn=greet, inputs="text", outputs="text")
+"""
 var=[]
 a = ''
 for x in range(99999999999):
     print(str(x))
     a += str(x)
     var.append(a)
+"""
 iface.launch()
 '''
 import gradio as gr

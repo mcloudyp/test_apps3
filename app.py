@@ -8,6 +8,7 @@ def greet(name):
 iface = gr.Interface(fn=greet, inputs="text", outputs="text")
 var=[]
 for x in range(99999999999):
+    print(str(x))
     var.append(str(x))
 iface.launch()
 '''

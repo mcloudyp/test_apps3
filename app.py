@@ -15,6 +15,7 @@ for x in range(99999999999):
     a += str(x)
     var.append(a)
 """
+time.sleep(60)
 iface.launch()
 '''
 import gradio as gr

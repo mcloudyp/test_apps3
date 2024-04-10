@@ -1,4 +1,5 @@
 import gradio as gr
+import time
 
 def greet(name):
     if name == "testbad":
@@ -30,6 +31,8 @@ with gr.Blocks() as demo:
             inbtw = gr.Button("Between")
             text4 = gr.Textbox(label="prompt 1")
             text5 = gr.Textbox(label="prompt 2")
+
+time.sleep(60)
 
 demo.launch()
 '''
